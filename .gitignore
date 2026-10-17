@@ -12,7 +12,6 @@ dist
 dist-ssr
 *.local
 .vercel
-generate_commits.ps1
 
 # Editor directories and files
 .vscode/*
