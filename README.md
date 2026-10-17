@@ -1,13 +1,17 @@
 # GitMetrics 🚀
 > **A Premium Developer Command Center, GitHub Intelligence Platform & 1-Click Portfolio Publisher**
 
+[![Live Demo](https://img.shields.io/badge/Live_Demo-gitmetrics--pink.vercel.app-00f2fe?style=for-the-badge&logo=vercel&logoColor=white)](https://gitmetrics-pink.vercel.app/)
+
+[![Live Status](https://img.shields.io/badge/Vercel-Live-success.svg)](https://gitmetrics-pink.vercel.app/)
 [![CI Pipeline](https://github.com/riazaslam029/GitMetrics/actions/workflows/ci.yml/badge.svg)](https://github.com/riazaslam029/GitMetrics/actions)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 [![TypeScript](https://img.shields.io/badge/TypeScript-5.7+-3178c6.svg)](https://www.typescriptlang.org/)
 [![React](https://img.shields.io/badge/React-19-61dafb.svg)](https://react.dev/)
 [![Vite](https://img.shields.io/badge/Vite-6+-646cff.svg)](https://vitejs.dev/)
 [![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-3.4+-38bdf8.svg)](https://tailwindcss.com/)
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/riazaslam029/GitMetrics)
+
+🌐 **Live Production Deployment**: [https://gitmetrics-pink.vercel.app/](https://gitmetrics-pink.vercel.app/)
 
 ---
 
@@ -26,18 +30,20 @@
 
 ## 📸 Screenshots
 
-To capture real screenshots of your running instance:
-1. Start the app locally with `npm run dev`.
-2. Inspect each view: Overview, GitHub Intelligence, Profile Score & Audit, Project Showcase, Workspace, and Portfolio Builder.
-3. Save captures into `docs/screenshots/`:
+### 1. Developer Command Center & Hero Section
+![Hero & Command Center](docs/screenshots/hero-overview.png)
 
-| Hero & Command Center | Profile Scorecard & Audit |
-| :---: | :---: |
-| *(Capture of Hero Section & Quick Lookup)* | *(Capture of Scorecard, Archetype & Recommendations)* |
+### 2. GitHub Profile & Repository Scorecard (91/100 · Grade A)
+![Profile Scorecard & Audit](docs/screenshots/scorecard-audit.png)
 
-| GitHub Intelligence & Telemetry | Live Portfolio Configurator & Exporter |
-| :---: | :---: |
-| *(Capture of Language Donut & Repositories)* | *(Capture of Split-Screen Editor & Output)* |
+### 3. GitHub Telemetry & Public Statistics
+![GitHub Intelligence Profile Header](docs/screenshots/profile-telemetry.png)
+
+### 4. Language Distribution & Tech Stack Breakdown
+![Language Distribution](docs/screenshots/language-distribution.png)
+
+### 5. Curated Repository Matrix & Live Event Telemetry
+![Repositories and Activity Feed](docs/screenshots/repositories-activity.png)
 
 ---
 
@@ -99,24 +105,16 @@ Visit `http://localhost:5173` in your browser.
 
 ---
 
-## 🚀 Deploy to Vercel
+## 🚀 Production Deployment (Vercel)
 
-### Option 1: Terminal Deploy (Vercel CLI)
+GitMetrics is deployed and active in production:
+👉 **[https://gitmetrics-pink.vercel.app/](https://gitmetrics-pink.vercel.app/)**
 
-```bash
-# Deploy preview
-npx vercel
+### Continuous Deployment Workflow
 
-# Deploy to production
-npx vercel --prod
-```
-
-### Option 2: Deploy via Vercel Dashboard
-
-1. Push your repository to `https://github.com/riazaslam029/GitMetrics`.
-2. Go to [vercel.com/new](https://vercel.com/new) and select the `GitMetrics` repository.
-3. Vercel automatically detects the Vite configuration and `vercel.json`.
-4. Click **Deploy**.
+1. Any changes pushed to branch `main` on GitHub automatically trigger a Vercel production deployment.
+2. Pull requests generate isolated preview URLs with full SPA routing support.
+3. Configured via [`vercel.json`](vercel.json) with client-side rewrites and HTTP caching.
 
 ---
 

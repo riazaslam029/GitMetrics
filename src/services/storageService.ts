@@ -167,7 +167,7 @@ export const INITIAL_PORTFOLIO: PortfolioConfig = {
       stars: 1120,
       forks: 135,
       url: 'https://github.com/riazaslam029/GitMetrics',
-      homepage: 'https://gitmetrics.vercel.app',
+      homepage: 'https://gitmetrics-pink.vercel.app',
       featured: true,
       tags: ['React', 'Tailwind', 'DevTools', 'GitHub API'],
     },

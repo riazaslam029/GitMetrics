@@ -219,7 +219,7 @@ export const DEMO_REPOSITORIES: GitHubRepo[] = [
     created_at: '2026-10-01T08:00:00Z',
     updated_at: '2026-10-17T12:00:00Z',
     pushed_at: '2026-10-17T11:45:00Z',
-    homepage: 'https://gitmetrics.vercel.app',
+    homepage: 'https://gitmetrics-pink.vercel.app',
     size: 4800,
     stargazers_count: 1120,
     watchers_count: 1120,
